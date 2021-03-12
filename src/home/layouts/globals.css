@@ -1,0 +1,257 @@
+
+.z-icon-image{
+	display: flex; 
+	width: 50px; 
+	height: 50px; 
+	border-radius: 50%; 
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
+}
+
+.z-icon-image-15{
+	display: flex; 
+	width: 50px; 
+	height: 50px; 
+	border-radius: 15%; 
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
+}
+
+
+.z-tree-icon{
+	display: flex; 
+	width: 16px; 
+	height: 16px; 
+	border-radius: 50%; 
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
+}
+
+
+.dialog-full {
+  height: calc(100% - 0px);
+  margin-bottom: 0px;
+}
+
+.pull-right {
+    float: right;
+} 
+
+.box-border {
+    border: lightgray;
+    border-width: 1px;
+    border-style: solid;
+
+    margin-top: 32px;margin-bottom: 32px;padding-bottom: 32px;
+} 
+
+.icon-handle {
+    cursor: pointer;
+}
+
+.row-padding {
+    padding-top: 12px;
+    padding-bottom: 1px;;
+}
+
+
+.row-input-label  {
+    /* margin-right: 2px; */
+    padding-right: 2px !important;; ;
+    padding-left: 2px !important;;;
+    line-height:32px;
+}
+
+
+.input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: red;
+}
+
+input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: blue; 
+} 
+  
+input[type="email"]:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: red; 
+} 
+  
+input[type="email"]::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: orange; 
+} 
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #909;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #909;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #909;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #909;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #909;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #909;
+}
+
+
+
+ 
+[v-cloak] {
+    display: none !important;
+}
+
+.tooltip-padding {
+    padding-left: 4px;
+}
+
+
+.right-icon {
+    cursor: pointer;
+    float: right; 
+    right: 3px; 
+    margin-top: 8px;
+}
+
+
+
+/* 从 bootstramp 抠出来的一部分， 防止冲突，加上z */
+.zform-control, .zinput-group {
+    position: relative;
+    display: table;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    height: 32px;
+    width : -webkit-fill-available
+}
+
+
+.zinput-group .zform-control {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 0px solid #ccc;
+    /* border: 1px solid #ccc;
+        border-radius: 4px; */
+}
+
+
+.zinput-group .zleft-control {
+    display: block;
+    width: 100%;
+    height: 30px;
+  
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 0px solid #ccc;
+    /* border: 1px solid #ccc;
+        border-radius: 4px; */
+}
+
+
+
+.zinput-group .zinput-group-addon {
+    /* padding: 8px 8px; */
+    display: table-cell;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    width : 30px;
+    background-color: #eee;
+}
+
+
+.zinput-group .zinput-group-addon:last-child {
+    border-left: 0;
+}
+
+
+
+
+
+/* 滚动槽 */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background: rgba(0,0,0,0.06);
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.08);
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: rgba(0,0,0,0.12);
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+
+@media (max-width: 575.98px) {
+  .z-size-ss {
+    display: none !important;
+  }
+}
+
+/*  Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .z-size-s {
+    display: none !important;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .z-size-m {
+    display: none !important;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .z-size-x {
+        display: none !important;
+    }
+ }
+
+ 
